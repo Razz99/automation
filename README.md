@@ -10,9 +10,9 @@
 ### Execution: feature-->Scenario-->steps
 
 # Popup Verification Logic:
-  1. Verification of value of data-testid which is true if popup is visible and false if popup is invisible
+  1. Verification of value of data-testid which is "SubscriptionPrompt-true" if popup is visible and "SubscriptionPrompt-true" if popup is invisible
   2. Verification of popup comming from bottom of the page has been done by checking the css properties applied to he popup div
-  i.e. position = fixed and bottom = 0px which will conforms that the element will be visible at teh bottom of teh page and scrolling effect doesnot applies in the div.
+   i.e. position = fixed and bottom = 0px which will conforms that the element will be visible at the bottom of the page and scrolling effect doesnot applies in the div.
 
 # Steps to run the code:
 1.  I have add virtual environment(venv) in the repo(which is not a good practice)for windows machine
